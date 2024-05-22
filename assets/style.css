@@ -1,9 +1,4 @@
-@charset "utf-8";
-/**/
 
-/* -----------------------------------------------------------------
-  1. Typography setup
--------------------------------------------------------------------*/
 *,
 *:after,
 *:before {
@@ -228,38 +223,38 @@ textarea {
 
 
 /* -----------------------------------------------------------------
-  2. General CSS + tabi-global own reset
+  2. General CSS + marshall own reset
 -------------------------------------------------------------------*/
 .clearfix::after,
 .clearfix::before,
-.tabi-global-container::before,
-.tabi-global-container::after,
-[class^="tabi-global-col-"]::before,
-[class^="tabi-global-col-"]::after,
-.tabi-global-content-column::after,
-.tabi-global-content-column::before,
-.tabi-global-social-column::before,
-.tabi-global-social-column::after,
-.tabi-global-the_content::after,
-.tabi-global-the_content::before,
-.tabi-global-gallery::before,
-.tabi-global-gallery::after,
+.marshall-container::before,
+.marshall-container::after,
+[class^="marshall-col-"]::before,
+[class^="marshall-col-"]::after,
+.marshall-content-column::after,
+.marshall-content-column::before,
+.marshall-social-column::before,
+.marshall-social-column::after,
+.marshall-the_content::after,
+.marshall-the_content::before,
+.marshall-gallery::before,
+.marshall-gallery::after,
 .stay_connent_with_social::before,
 .stay_connent_with_social::after,
 .divided_or::before,
 .divided_or::after,
-.tabi-global-newsletter-content::before,
-.tabi-global-newsletter-content::after,
-.tabi-global-static-content::before,
-.tabi-global-static-content::after,
+.marshall-newsletter-content::before,
+.marshall-newsletter-content::after,
+.marshall-static-content::before,
+.marshall-static-content::after,
 .simply-countdown-column::before,
 .simply-countdown-column::after {
   content: "";
   display: block;
   clear: both;
 }
-.tabi-global-container,
-.tabi-global-social-column {
+.marshall-container,
+.marshall-social-column {
   width: 100%;
 }
 .bg-container {
@@ -267,84 +262,84 @@ textarea {
   background-size: cover;
   background-position: center;
 }
-.tabi-global-col-content {
+.marshall-col-content {
   position: relative;
   z-index: 3;
 }
-.tabi-global-col-screen {
+.marshall-col-screen {
   z-index: 9;
 }
-.tabi-global-col-1,
-.tabi-global-col-2,
-.tabi-global-col-3,
-.tabi-global-col-4,
-.tabi-global-col-5,
-.tabi-global-col-6,
-.tabi-global-col-7,
-.tabi-global-col-8,
-.tabi-global-col-9,
-.tabi-global-col-10,
-.tabi-global-col-11,
-.tabi-global-col-12 {
+.marshall-col-1,
+.marshall-col-2,
+.marshall-col-3,
+.marshall-col-4,
+.marshall-col-5,
+.marshall-col-6,
+.marshall-col-7,
+.marshall-col-8,
+.marshall-col-9,
+.marshall-col-10,
+.marshall-col-11,
+.marshall-col-12 {
   float: left;
   min-height: 1;
   height: 100vh;
 }
-.tabi-global-col-1,
-.tabi-global-col-1 .tabi-global-animate-content {
+.marshall-col-1,
+.marshall-col-1 .marshall-animate-content {
   width: 8.33333%;
 }
-.tabi-global-col-2,
-.tabi-global-col-2 .tabi-global-animate-content{
+.marshall-col-2,
+.marshall-col-2 .marshall-animate-content{
   width: 16.6667%;
 }
-.tabi-global-col-3,
-.tabi-global-col-3 .tabi-global-animate-content{
+.marshall-col-3,
+.marshall-col-3 .marshall-animate-content{
   width: 25%;
 }
-.tabi-global-col-4,
-.tabi-global-col-4 .tabi-global-animate-content{
+.marshall-col-4,
+.marshall-col-4 .marshall-animate-content{
   width: 33.3333%;
 }
-.tabi-global-col-5,
-.tabi-global-col-5 .tabi-global-animate-content{
+.marshall-col-5,
+.marshall-col-5 .marshall-animate-content{
   width: 41.6667%;
 }
-.tabi-global-col-6,
-.tabi-global-col-6 .tabi-global-animate-content{
+.marshall-col-6,
+.marshall-col-6 .marshall-animate-content{
   width: 50%;
 }
-.tabi-global-col-7,
-.tabi-global-col-7 .tabi-global-animate-content{
+.marshall-col-7,
+.marshall-col-7 .marshall-animate-content{
   width: 58.3333%;
 }
-.tabi-global-col-8,
-.tabi-global-col-8 .tabi-global-animate-content{
+.marshall-col-8,
+.marshall-col-8 .marshall-animate-content{
   width: 66.6667%;
 }
-.tabi-global-col-9,
-.tabi-global-col-9 .tabi-global-animate-content{
+.marshall-col-9,
+.marshall-col-9 .marshall-animate-content{
   width: 75%;
 }
-.tabi-global-col-10,
-.tabi-global-col-10 .tabi-global-animate-content{
+.marshall-col-10,
+.marshall-col-10 .marshall-animate-content{
   width: 83.3333%;
 }
-.tabi-global-col-11,
-.tabi-global-col-11 .tabi-global-animate-content{
+.marshall-col-11,
+.marshall-col-11 .marshall-animate-content{
   width: 91.6667%;
 }
-.tabi-global-col-12,
-.tabi-global-col-12 .tabi-global-animate-content{
+.marshall-col-12,
+.marshall-col-12 .marshall-animate-content{
   width: 100%;
 }
-.tabi-global-position{
+.marshall-position{
   position: relative;
 }
 .special_title {
   font-family: 'Ranga', cursive;
 }
-.tabi-global-btn {
+.marshall-btn {
   background-color: #f61067;
   border-radius: 0;
   display: inline-block;
@@ -359,7 +354,7 @@ textarea {
   color: #FFF;
   border: 1px solid #f61067;
 }
-.tabi-global-btn.tabi-global-btn-text {
+.marshall-btn.marshall-btn-text {
   background-color: transparent;
   border-radius: 0;
   display: inline-block;
@@ -367,27 +362,27 @@ textarea {
   padding: 7px 30px;
   border-color: transparent;: 
 }
-.tabi-global-btn i {
+.marshall-btn i {
   margin-right: 5px;
   -webkit-transition: all 0.4 ease 0s;
   transition: all 0.4 ease 0s;
 }
-.tabi-global-btn:hover, 
-.tabi-global-btn:focus, 
-.tabi-global-btn:active {
+.marshall-btn:hover, 
+.marshall-btn:focus, 
+.marshall-btn:active {
   background-color: transparent;
   border-style: dashed;
 }
-.tabi-global-btn.tabi-global-btn-text:hover, 
-.tabi-global-btn.tabi-global-btn-text:focus, 
-.tabi-global-btn.tabi-global-btn-text:active {
+.marshall-btn.marshall-btn-text:hover, 
+.marshall-btn.marshall-btn-text:focus, 
+.marshall-btn.marshall-btn-text:active {
   color: #fff;
 }
-.tabi-global-btn.tabi-global-btn-text:hover i,
-.tabi-global-animate-open.tabi-global-btn i{
+.marshall-btn.marshall-btn-text:hover i,
+.marshall-animate-open.marshall-btn i{
   color: #f61067;
 }
-.tabi-global-hide {
+.marshall-hide {
   display: none;
 }
 .bottom-separator {
@@ -422,7 +417,7 @@ body.mrs-white .morph-button-modal-2 .morph-content {
   background-color: #232428;
   color: #fff;
 }
-.tabi-global-col-10.tabi-global-middle-10.tabi-global-col-content {
+.marshall-col-10.marshall-middle-10.marshall-col-content {
   margin-left: 8.3%;
   text-align: center;
 }
@@ -431,7 +426,7 @@ body.mrs-white .morph-button-modal-2 .morph-content {
 /* -----------------------------------------------------------------
   3. fixed close button
 -------------------------------------------------------------------*/
-.tabi-global-content-close {
+.marshall-content-close {
   background-color: #333;
   border: 0 none;
   height: 40px;
@@ -447,18 +442,18 @@ body.mrs-white .morph-button-modal-2 .morph-content {
   transition: all 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0.4s;
   cursor: pointer;
 }
-.tabi-global-content-close:hover {
+.marshall-content-close:hover {
   font-size: 1.1em;
   line-height: 45px;
 }
-.tabi-global-content-close i.fa {
+.marshall-content-close i.fa {
   left: 50%;
   line-height: 20px;
   position: absolute;
   top: calc(50% - 3px);
   transform: translateY(-50%) translateX(-50%);
 }
-.tabi-global-content-close.fixed_color_changed {
+.marshall-content-close.fixed_color_changed {
   background-color: #FFF;
   color: #333;
 }
@@ -467,7 +462,7 @@ body.mrs-white .morph-button-modal-2 .morph-content {
 /* -----------------------------------------------------------------
   3. Loader
 -------------------------------------------------------------------*/
-.tabi-global-loading-screen {
+.marshall-loading-screen {
   background-color: #333;
   bottom: 0;
   left: 0;
@@ -477,17 +472,17 @@ body.mrs-white .morph-button-modal-2 .morph-content {
   top: 0;
   z-index: 99999;
 }
-.tabi-global-loading-icon {
+.marshall-loading-icon {
   display: table;
   height: 100%;
   position: absolute;
   width: 100%;
 }
-.tabi-global-loading-inner {
+.marshall-loading-inner {
   display: table-cell;
   vertical-align: middle;
 }
-.tabi-global-load {
+.marshall-load {
   background-color: #f61067;
   border-radius: 50%;
   height: 60px;
@@ -495,7 +490,7 @@ body.mrs-white .morph-button-modal-2 .morph-content {
   position: relative;
   width: 60px;
 }
-.tabi-global-load::before {
+.marshall-load::before {
   background-color: transparent;
   border: 2px dashed #fff;
   border-radius: 50%;
@@ -517,7 +512,7 @@ body.mrs-white .morph-button-modal-2 .morph-content {
   animation: 4s linear 0s normal none infinite running spinnerRotate;
   -webkit-animation: 4s linear 0s normal none infinite running spinnerRotate;
 }
-.tabi-global-load::after {
+.marshall-load::after {
   content: attr(data-name);
   font-size: 1.8em;
   font-weight: 700;
@@ -530,7 +525,7 @@ body.mrs-white .morph-button-modal-2 .morph-content {
 /* -----------------------------------------------------------------
   4. Content Column
 -------------------------------------------------------------------*/
-.tabi-global-content-column {
+.marshall-content-column {
   height: 100vh;
   margin-left: 15%;
   position: relative;
@@ -543,12 +538,12 @@ body.mrs-white .morph-button-modal-2 .morph-content {
 /* -----------------------------------------------------------------
   5. Logo
 -------------------------------------------------------------------*/
-.tabi-global-logo {
+.marshall-logo {
   margin-left: 15%;
   margin-top: 35px;
   position: absolute;
 }
-.tabi-global-logo img {
+.marshall-logo img {
   display: inline-block;
   max-width: 130px;
 }
@@ -558,7 +553,7 @@ body.mrs-white .morph-button-modal-2 .morph-content {
 /* -----------------------------------------------------------------
   6. Content
 -------------------------------------------------------------------*/
-.tabi-global-content {
+.marshall-content {
   display: block;
   margin-left: 15%;
   position: absolute;
@@ -566,16 +561,16 @@ body.mrs-white .morph-button-modal-2 .morph-content {
   visibility: visible;
   width: 70%;
 }
-.tabi-global-button-group {
+.marshall-button-group {
   margin-top: 40px;
   position: relative;
   z-index: 1;
 }
-.tabi-global-button-group .tabi-global-btn,
-.tabi-global-button-group .tabi-global-btn-text {
+.marshall-button-group .marshall-btn,
+.marshall-button-group .marshall-btn-text {
   margin: 0;
 }
-.tabi-global-content.css-center {
+.marshall-content.css-center {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -583,32 +578,32 @@ body.mrs-white .morph-button-modal-2 .morph-content {
 /* -----------------------------------------------------------------
   7. Social Links
 -------------------------------------------------------------------*/
-.tabi-global-social-column {
+.marshall-social-column {
   bottom: 15px;
   left: 15%;
   position: absolute;
   width: 70%;
 }
-.tabi-global-social-column p {
+.marshall-social-column p {
   display: inline-block;
   margin-bottom: 0;
 }
-ul.tabi-global-social-links {
+ul.marshall-social-links {
   display: inline-block;
   list-style: outside none none;
   margin: 0 0 0 10px;
   padding: 0;
 }
-ul.tabi-global-social-links li {
+ul.marshall-social-links li {
   display: inline-block;
 }
-.tabi-global-social-links a {
+.marshall-social-links a {
   padding: 0 6px;
   display: block;
   -webkit-transition: all 0.1s linear 0s;
   transition: all 0.1s linear 0s;
 }
-.tabi-global-social-links a:hover {
+.marshall-social-links a:hover {
   -webkit-transform: translate3d(0px, -2px, 0px);
   transform: translate3d(0px, -2px, 0px);
   color: #f61067;
@@ -618,7 +613,7 @@ ul.tabi-global-social-links li {
 /* -----------------------------------------------------------------
   8. Fit column => Thumb, Canvas, Video etc
 -------------------------------------------------------------------*/
-.tabi-global-fit-column {
+.marshall-fit-column {
   background-image: url("images/art.html");
   background-position: center center;
   background-size: cover;
@@ -630,7 +625,7 @@ ul.tabi-global-social-links li {
 /* -----------------------------------------------------------------
   9. Content Column
 -------------------------------------------------------------------*/
-.tabi-global-animate-content {
+.marshall-animate-content {
   background-color: #fff;
   backface-visibility: hidden;
   height: 100%;
@@ -642,12 +637,12 @@ ul.tabi-global-social-links li {
   transform-style: preserve-3d;
   visibility: hidden;
 }
-.tabi-global-screen-left .tabi-global-animate-content {
+.marshall-screen-left .marshall-animate-content {
   right: inherit;
   left: 0;
 }
 
-.tabi-global-main-content {
+.marshall-main-content {
   height: 100%;
   position: absolute;
   right: 0;
@@ -656,7 +651,7 @@ ul.tabi-global-social-links li {
   overflow: auto;
   width: 100%;
 }
-#tabi-global-details {
+#marshall-details {
   width: 50%;
 }
 .mrs-active {
@@ -687,18 +682,18 @@ ul.tabi-global-social-links li {
   -webkit-animation: scaleDown .7s ease both;
   animation: scaleDown .7s ease both;
 }
-.tabi-global-the_content {
+.marshall-the_content {
   background-color: #fff;
   padding: 40px 50px 20px;
   color: #808080;
 }
-.tabi-global-the_content a {
+.marshall-the_content a {
   color: #808080;
 }
-.tabi-global-works-details {
+.marshall-works-details {
   margin-top: 45px;
 }
-.tabi-global-the_content h2 {
+.marshall-the_content h2 {
   color: #252525;
   font-size: 2em;
   font-weight: 700;
@@ -706,7 +701,7 @@ ul.tabi-global-social-links li {
   margin-top: 0;
   text-transform: uppercase;
 }
-.tabi-global-the_content > h2 span {
+.marshall-the_content > h2 span {
   color: #f61067;
 }
 .mCSB_inside > .mCSB_container {
@@ -724,7 +719,7 @@ ul.tabi-global-social-links li {
 /* -----------------------------------------------------------------
   10. Gallery/Works
 -------------------------------------------------------------------*/
-.tabi-global-works-heading::after {
+.marshall-works-heading::after {
   background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   content: "";
@@ -735,43 +730,43 @@ ul.tabi-global-social-links li {
   top: 0;
   z-index: 0;
 }
-.tabi-global-the_content .tabi-global-works-heading-inner h2 {
+.marshall-the_content .marshall-works-heading-inner h2 {
   color: #fff;
 }
-.tabi-global-works-heading {
-  background-image: url("images/ocean.html");
+.marshall-works-heading {
+  background-image: url("images/ocean.jpg");
   background-size: cover;
   margin-left: -50px;
   margin-right: -50px;
   padding: 35px 50px 320px;
   position: relative;
 }
-.tabi-global-works-heading-inner {
+.marshall-works-heading-inner {
   color: #fff;
   position: relative;
   z-index: 1;
 }
-.tabi-global-gallery-item {
+.marshall-gallery-item {
   display: block;
   float: left;
   margin: 0;
   overflow: hidden;
   width: 50%;
 }
-.tabi-global-gallery {
+.marshall-gallery {
   margin-top: -270px;
   position: relative;
 }
-.tabi-global-gallery-item a,
-.tabi-global-gallery-item a img {
+.marshall-gallery-item a,
+.marshall-gallery-item a img {
   display: block;
   width: 100%;
   height: auto;
 }
-.tabi-global-gallery-item a {
+.marshall-gallery-item a {
   position: relative;
 }
-.tabi-global-gallery-item h2 {
+.marshall-gallery-item h2 {
   color: #fff;
   font-size: 1em;
   font-weight: 400;
@@ -789,7 +784,7 @@ ul.tabi-global-social-links li {
   -ms-transition:all 0.3s ease-in-out 0.3s;
   transition:all 0.3s ease-in-out 0.3s;
 }
-.tabi-global-gallery-item a .mask-overley {
+.marshall-gallery-item a .mask-overley {
   position:absolute; /* Center the mask */
   top:50%;
   left:50%;
@@ -818,12 +813,12 @@ ul.tabi-global-social-links li {
   -ms-transition:all 0.3s ease-in-out;
   transition:all 0.3s ease-in-out;
 }
-.tabi-global-gallery-item a:hover .mask-overley {
+.marshall-gallery-item a:hover .mask-overley {
    opacity: 1;
    border: 10vw solid rgba(0, 0, 0, 0.7);
    visibility:visible;
 }
-.tabi-global-gallery-item a:hover h2 {
+.marshall-gallery-item a:hover h2 {
    opacity: 1;
    visibility:visible;
    -webkit-transform: translateY(-50%) translateX(-50%) scale(1);
@@ -1058,22 +1053,22 @@ ul.tabi-global-social-links li {
 /* -----------------------------------------------------------------
   12. Newsletter form
 -------------------------------------------------------------------*/
-.tabi-global-newsletter-header {
+.marshall-newsletter-header {
   padding: 40px 0 20px;
   position: relative;
 }
-.tabi-global-newsletter-header img {
+.marshall-newsletter-header img {
   display: block;
   margin: auto;
   position: relative;
   width: 100px;
   z-index: 3;
 }
-.tabi-global-newsletter-inner {
+.marshall-newsletter-inner {
   padding: 0 30px;
   text-align: center;
 }
-.tabi-global-newsletter-description > p {
+.marshall-newsletter-description > p {
   color: #747474;
 }
 .fa-times-thin:before {
@@ -1098,11 +1093,11 @@ span.close-newsletter:hover {
 span.close-newsletter i{
   line-height: 18px;
 }
-.tabi-global-newsletter-content > input {
+.marshall-newsletter-content > input {
   display: block;
   width: 100%;
 }
-.tabi-global-newsletter-content input[type="email"] {
+.marshall-newsletter-content input[type="email"] {
   background-color: #ebebeb;
   border: 0 solid;
   line-height: 1.5;
@@ -1110,7 +1105,7 @@ span.close-newsletter i{
   padding: 13px 15px 15px;
   text-align: center;
 }
-.tabi-global-newsletter-content {
+.marshall-newsletter-content {
   margin: 35px auto auto;
   width: 80%;
 }
@@ -1118,7 +1113,7 @@ span.close-newsletter i{
   height: 464px;
   margin-top: -232px;
 }
-.tabi-global-newsletter-description h2 {
+.marshall-newsletter-description h2 {
   margin-top: 10px;
 }
 .animation-icon {
@@ -1137,7 +1132,7 @@ span.close-newsletter i{
 .large-icon {
   font-size: 2em;
 }
-.tabi-global-newsletter-animation-icons {
+.marshall-newsletter-animation-icons {
   height: 50px;
   left: 50%;
   margin-left: -25px;
@@ -1146,78 +1141,78 @@ span.close-newsletter i{
   top: 50%;
   width: 50px;
 }
-.tabi-global-newsletter-content label {
+.marshall-newsletter-content label {
   display: block;
   font-size: 0.8em;
   margin-top: 5px;
 }
-.tabi-global-morph-modal.open-animate .animation-icon-7,
+.marshall-morph-modal.open-animate .animation-icon-7,
 .mfrom-header-animate .animation-icon-7 {
   left: -175px;
   top: -12px;
   transform: rotate(-20deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-8,
+.marshall-morph-modal.open-animate .animation-icon-8,
 .mfrom-header-animate .animation-icon-8 {
   left: -175px;
   top: 40px;
   transform: rotate(-7deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-4,
+.marshall-morph-modal.open-animate .animation-icon-4,
 .mfrom-header-animate .animation-icon-4 {
   left: -125px;
   top: 22px;
   transform: rotate(-4deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-1,
+.marshall-morph-modal.open-animate .animation-icon-1,
 .mfrom-header-animate .animation-icon-1 {
   left: -94px;
   top: -19px;
   transform: rotate(20deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-2,
+.marshall-morph-modal.open-animate .animation-icon-2,
 .mfrom-header-animate .animation-icon-2 {
   left: -94px;
   top: 51px;
   transform: rotate(-20deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-9,
+.marshall-morph-modal.open-animate .animation-icon-9,
 .mfrom-header-animate .animation-icon-9 {
   left: -71px;
   top: 8px;
   transform: rotate(22deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-16,
+.marshall-morph-modal.open-animate .animation-icon-16,
 .mfrom-header-animate .animation-icon-16 {
   left: 185px;
   top: -12px;
   transform: rotate(20deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-17,
+.marshall-morph-modal.open-animate .animation-icon-17,
 .mfrom-header-animate .animation-icon-17 {
   left: 185px;
   top: 40px;
   transform: rotate(7deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-5,
+.marshall-morph-modal.open-animate .animation-icon-5,
 .mfrom-header-animate .animation-icon-5 {
   left: 148px;
   top: 22px;
   transform: rotate(4deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-3,
+.marshall-morph-modal.open-animate .animation-icon-3,
 .mfrom-header-animate .animation-icon-3 {
   left: 117px;
   top: -19px;
   transform: rotate(-20deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-10,
+.marshall-morph-modal.open-animate .animation-icon-10,
 .mfrom-header-animate .animation-icon-10 {
   left: 117px;
   top: 51px;
   transform: rotate(20deg);
 }
-.tabi-global-morph-modal.open-animate .animation-icon-18,
+.marshall-morph-modal.open-animate .animation-icon-18,
 .mfrom-header-animate .animation-icon-18 {
   left: 90px;
   top: 8px;
@@ -1243,7 +1238,7 @@ span.close-newsletter i{
     from{transform:rotate(0deg);}
     to{transform:rotate(360deg);}
 }
-.tabi-global-newsletter-content .marshall_submit {
+.marshall-newsletter-content .marshall_submit {
   background-color: #f61067;
   border: 0 none;
   display: block;
@@ -1256,10 +1251,10 @@ span.close-newsletter i{
   position: relative;
   margin: auto;
 }
-.tabi-global-newsletter-content .marshall_submit:hover {
+.marshall-newsletter-content .marshall_submit:hover {
   background-color: #E00A62;
 }
-.tabi-global-newsletter-content .marshall_submit::after {
+.marshall-newsletter-content .marshall_submit::after {
   background-image: url("images/tick.png");
   background-size: 100% auto;
   content: "";
@@ -1278,14 +1273,14 @@ span.close-newsletter i{
   -webkit-transition: transform 0.4s;
   transition: transform 0.4s;
 }
-.tabi-global-newsletter-content.mform-submitting .marshall_submit {
+.marshall-newsletter-content.mform-submitting .marshall_submit {
   border-radius: 50% !important;
   height: 46px;
   margin: auto;
   text-indent: -9999px;
   width: 46px !important;
 }
-.tabi-global-newsletter-content .marshall_submit::before {
+.marshall-newsletter-content .marshall_submit::before {
   opacity: 0;
   visibility: hidden;
   background-color: transparent;
@@ -1306,7 +1301,7 @@ span.close-newsletter i{
   transition-timing-function: linear;
   transition-delay: 0;
 }
-.tabi-global-newsletter-content.mform-animate .marshall_submit::before {
+.marshall-newsletter-content.mform-animate .marshall_submit::before {
   opacity: 1;
   visibility: visible;
   transition: top 0.4s,left 0.4s,right 0.4s,bottom 0.4s, border-width 0.4s ease 0.4s;
@@ -1314,19 +1309,19 @@ span.close-newsletter i{
   animation: 1s linear 0.4s normal none infinite running spinnerRotate;
   -webkit-animation: 1s linear 0.4s normal none infinite running spinnerRotate;
 }
-.tabi-global-newsletter-content.mform-submitting.mform-success .marshall_submit::after {
+.marshall-newsletter-content.mform-submitting.mform-success .marshall_submit::after {
   transform: scale(1);
   opacity: 1;
   visibility: visible;
 }
-.tabi-global-newsletter-content.mform-animate.mform-submitting.mform-success .marshall_submit::before {
+.marshall-newsletter-content.mform-animate.mform-submitting.mform-success .marshall_submit::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   border-width: 0;
 }
-.tabi-global-newsletter-header.mfrom-header-animate-close .tabi-global-newsletter-animation-icons .animation-icon{
+.marshall-newsletter-header.mfrom-header-animate-close .marshall-newsletter-animation-icons .animation-icon{
   left: 0;
   transform: rotate(0deg);
   top: 0;
@@ -1363,7 +1358,7 @@ span.close-newsletter i{
 .mformBounceInDown {
   animation-name: mformBounceInDown;
 }
-.tabi-global-newsletter-header.mfrom-header-animate-close img {
+.marshall-newsletter-header.mfrom-header-animate-close img {
   animation-name: mformBounceInDown;
   animation-duration: 0.6s;
   animation-timing-function: linear;
@@ -1518,7 +1513,7 @@ canvas.fireworks {
 .align-center {
   text-align: center;
 }
-.align-center .tabi-global-logo {
+.align-center .marshall-logo {
   margin-left: 50%;
   position: absolute;
   -webkit-transform: translateX(-50%);
@@ -1536,7 +1531,7 @@ canvas.fireworks {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.mrs-v2 .tabi-global-animate-content::after {
+.mrs-v2 .marshall-animate-content::after {
   background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   content: "";
@@ -1557,7 +1552,7 @@ canvas.fireworks {
 /* -----------------------------------------------------------------
   *. v3
 -------------------------------------------------------------------*/
-.mrs-v3 .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content {
+.mrs-v3 .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content {
   float: none;
 }
 .anounchment_element {
@@ -1595,10 +1590,10 @@ canvas.fireworks {
   transform: rotate(-1deg);
   width: 100%;
 }
-.mrs-v3 .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content label {
+.mrs-v3 .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content label {
   bottom: -35px;
 }
-.mrs-v3.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content {
+.mrs-v3.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content {
   overflow: inherit;
 }
 
@@ -1653,17 +1648,17 @@ canvas.fireworks {
 /* -----------------------------------------------------------------
   *. V5
 -------------------------------------------------------------------*/
-.tabi-global-screen-left .tabi-global-logo {
+.marshall-screen-left .marshall-logo {
   margin-left: 40px;
   margin-top: 20px;
   width: 90px;
   z-index: 3;
 }
-.tabi-global-screen-left .tabi-global-logo img {
+.marshall-screen-left .marshall-logo img {
   max-width: 100%;
   width: 100%;
 }
-.tabi-global-screen-left .tabi-global-social-column {
+.marshall-screen-left .marshall-social-column {
   left: 40px;
   z-index: 3;
   color: #FFF;
@@ -1687,8 +1682,26 @@ canvas.fireworks {
   font-size: 3.5em;
 }
 .short_description {
-  margin: 35px auto auto;
   text-align: center;
+  font-size: 18px;
+  color: #000000;
+}
+.contact p{
+  text-align: start;
+  font-size: 18px;
+  color: #000000;
+}
+.contact ul{
+  padding: 0;
+    margin: 0;
+}
+.contact li {
+  text-align: center;
+}
+.contact a {
+    text-align: start;
+    font-size: 18px;
+    color: #000000;
 }
 .mrs-v6 .short_description {
   margin: 35px auto auto;
@@ -1737,11 +1750,6 @@ canvas.fireworks {
 .gp_social{
   background-color: #E14A39;
 }
-.in_social{
-  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
-  transition: all .3s ease-in-out;
-
-}
 .fb_social:focus,
 .fb_social:active,
 .fb_social:hover {
@@ -1756,11 +1764,6 @@ canvas.fireworks {
 .gp_social:focus,
 .gp_social:active{
   background-color: #C23121;
-}
-.in_social:hover,
-.in_social:focus,
-.in_social:active{
-  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
 }
 .divided_or {
   border-top: 1px solid #e9eaee;
@@ -1781,40 +1784,40 @@ canvas.fireworks {
 .default_mrs_newsletter {
   text-align: center;
 }
-.default_mrs_newsletter .tabi-global-newsletter-content input {
+.default_mrs_newsletter .marshall-newsletter-content input {
   border-radius: 40px;
   margin: auto auto 20px;
   -webkit-transition: all 0.4s linear 0s;
   transition: all 0.4s linear 0s;
   width: 90%;
 }
-.default_mrs_newsletter .tabi-global-newsletter-content .marshall_submit {
+.default_mrs_newsletter .marshall-newsletter-content .marshall_submit {
   background-color: #1c52ce;
   border-radius: 30px;
   margin-top: 20px;
   width: 40%;
 }
-.default_mrs_newsletter .tabi-global-newsletter-content {
+.default_mrs_newsletter .marshall-newsletter-content {
   margin-top: 30px;
   width: 90%;
 }
-.mrs-v5 .tabi-global-col-content {
+.mrs-v5 .marshall-col-content {
   min-height: 620px;
   overflow: auto;
 }
-.default_mrs_newsletter .tabi-global-newsletter-content input:focus {
+.default_mrs_newsletter .marshall-newsletter-content input:focus {
   background-color: #fff;
   border: 0 none;
   border-radius: 0;
   box-shadow: 0 0 0;
 }
-.tabi-global-screen-left .position_footer {
+.marshall-screen-left .position_footer {
   color: #FFF;
 }
-.tabi-global-col-7 .tabi-global-content {
+.marshall-col-7 .marshall-content {
   width: 73%;
 }
-.tabi-global-video-trailer {
+.marshall-video-trailer {
   background-image: url("images/v7/square.html");
   background-position: center center;
   background-size: cover;
@@ -1826,7 +1829,7 @@ canvas.fireworks {
   position: relative;
   width: 250px;
 }
-.tabi-global-video-trailer a {
+.marshall-video-trailer a {
   color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
   font-size: 4em;
@@ -1839,9 +1842,9 @@ canvas.fireworks {
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
-.tabi-global-video-trailer a:hover,
-.tabi-global-video-trailer a:focus,
-.tabi-global-video-trailer a:active {
+.marshall-video-trailer a:hover,
+.marshall-video-trailer a:focus,
+.marshall-video-trailer a:active {
   color: rgba(0, 0, 0, 0.9);
 }
 .mfp-fade.mfp-bg {
@@ -1875,19 +1878,19 @@ canvas.fireworks {
 /* -----------------------------------------------------------------
   *. Static Content
 -------------------------------------------------------------------*/
-.tabi-global-static-content {
+.marshall-static-content {
   height: 100vh;
   position: relative;
   width: 100%;
 }
-.tabi-global-full-contact-area {
+.marshall-full-contact-area {
   background-color: #fff;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.tabi-global-full-contact-area {
+.marshall-full-contact-area {
   background-color: #fff;
   border-radius: 5px;
   color: #232428;
@@ -1900,36 +1903,36 @@ canvas.fireworks {
   width: 90%;
   box-shadow: 0 10px 7px rgba(0, 0, 0, 0.3);
 }
-.tabi-global-full-contact-area h5 {
+.marshall-full-contact-area h5 {
   border-bottom: 1px solid #e9eaee;
   font-size: 1.5em;
   margin: 20px 0 0;
   padding-bottom: 20px;
   text-align: center;
 }
-.tabi-global-full-contact-area .stay_connent_with_social {
+.marshall-full-contact-area .stay_connent_with_social {
   margin-top: 25px;
 }
-.tabi-global-full-contact-area .divided_or {
+.marshall-full-contact-area .divided_or {
   margin: 40px auto 30px;
   width: 80%;
 }
-.tabi-global-col-6.tabi-global-middle-6.tabi-global-col-content {
+.marshall-col-6.marshall-middle-6.marshall-col-content {
   margin-left: 25%;
   text-align: center;
 }
-.tabi-global-middle-6 .tabi-global-logo {
+.marshall-middle-6 .marshall-logo {
   left: 50%;
   margin-left: 0;
   position: absolute;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.tabi-global-middle-6 .fat_title {
+.marshall-middle-6 .fat_title {
   font-size: 4em;
   font-weight: 800;
 }
-.tabi-global-middle-6 .stay_connent_with_social {
+.marshall-middle-6 .stay_connent_with_social {
   bottom: 30px;
   left: 50%;
   margin-top: 0;
@@ -1938,10 +1941,10 @@ canvas.fireworks {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.tabi-global-middle-6 .stay_connent_with_social h5 {
+.marshall-middle-6 .stay_connent_with_social h5 {
   color: #FFF;
 }
-.tabi-global-middle-6 .stay_connent_with_social li a {
+.marshall-middle-6 .stay_connent_with_social li a {
   border-radius: 40px;
   display: inline-block;
   font-size: 1em;
@@ -1952,7 +1955,7 @@ canvas.fireworks {
   text-align: center;
   width: 40px;
 }
-.tabi-global-middle-6 .stay_connent_with_social li a i {
+.marshall-middle-6 .stay_connent_with_social li a i {
   margin-right: 0;
 }
 .mrs-v8 .bg-container {
@@ -1976,21 +1979,21 @@ body.mrs-v9 .morph-button-modal-2 .morph-content {
   background-color: #232428;
   color: #fff;
 }
-body.mrs-v9 .tabi-global-newsletter-description > p {
+body.mrs-v9 .marshall-newsletter-description > p {
   color: #fff;
 }
-body.mrs-v9 .tabi-global-social-links a {
+body.mrs-v9 .marshall-social-links a {
   color: #000;
 }
-body.mrs-v9 .tabi-global-fit-column {
+body.mrs-v9 .marshall-fit-column {
   background-image: url("images/v9/bark.html");
 }
-.tabi-global-simple-content h2 {
+.marshall-simple-content h2 {
   color: #fff;
   font-size: 2em;
   line-height: 1.3;
 }
-.tabi-global-simple-content h2.small_h2 {
+.marshall-simple-content h2.small_h2 {
   font-weight: 800;
 }
 
@@ -2008,7 +2011,7 @@ body.mrs-v9 .tabi-global-fit-column {
 /* -----------------------------------------------------------------
   *. v11
 -------------------------------------------------------------------*/
-#tabi-global-canvas {
+#marshall-canvas {
   bottom: 0;
   left: 0;
   position: absolute;
@@ -2024,7 +2027,7 @@ body.mrs-v9 .tabi-global-fit-column {
 body.mrs-v11 .fat_title {
     font-family: 'Work Sans', sans-serif;
 }
-body.mrs-v11 .tabi-global-content {
+body.mrs-v11 .marshall-content {
   display: block;
   margin-left: 0;
   position: absolute;
@@ -2032,10 +2035,10 @@ body.mrs-v11 .tabi-global-content {
   visibility: visible;
   width: 100%;
 }
-body.mrs-v11 .tabi-global-middle-6 .fat_title {
+body.mrs-v11 .marshall-middle-6 .fat_title {
   text-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
-body.mrs-v11 .tabi-global-middle-6 .stay_connent_with_social h5, 
+body.mrs-v11 .marshall-middle-6 .stay_connent_with_social h5, 
 body.mrs-v11 .short_description {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
@@ -2047,7 +2050,7 @@ body.mrs-v11 .short_description {
 .bg-container {
   background-image: url("images/v12/building.html");
 }
-.tabi-global-animate-content[data-animation="mrs-slideToggle"] {
+.marshall-animate-content[data-animation="mrs-slideToggle"] {
   -webkit-transform: translate3d(100%, 0px, 0px);
   transform: translate3d(100%, 0px, 0px);
   -webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
@@ -2055,7 +2058,7 @@ body.mrs-v11 .short_description {
   visibility: visible;
   z-index: 1;
 }
-.tabi-global-animate-content.mrs-slideToggle[data-animation="mrs-slideToggle"] {
+.marshall-animate-content.mrs-slideToggle[data-animation="mrs-slideToggle"] {
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
@@ -2144,7 +2147,7 @@ body.mrs-v14 {
   background-color: #fff;
   color: #232428;
 }
-body.mrs-v14 .tabi-global-social-links a {
+body.mrs-v14 .marshall-social-links a {
   color: #000;
 }
 body.mrs-v14 .morph-button-modal-2 > button, 
@@ -2152,10 +2155,10 @@ body.mrs-v14 .morph-button-modal-2 .morph-content {
   background-color: #232428;
   color: #fff;
 }
-body.mrs-v14 .tabi-global-fit-column {
+body.mrs-v14 .marshall-fit-column {
   background-image: none;
 }
-body.mrs-v14 .tabi-global-logo img {
+body.mrs-v14 .marshall-logo img {
   border-radius: 50%;
   overflow: hidden;
 }
@@ -2170,7 +2173,7 @@ body.mrs-v15 {
   background-color: #fff;
   color: #232428;
 }
-body.mrs-v15 .tabi-global-social-links a {
+body.mrs-v15 .marshall-social-links a {
   color: #000;
 }
 body.mrs-v15 .morph-button-modal-2 > button, 
@@ -2178,17 +2181,17 @@ body.mrs-v15 .morph-button-modal-2 .morph-content {
   background-color: #232428;
   color: #fff;
 }
-body.mrs-v15 .tabi-global-fit-column {
+body.mrs-v15 .marshall-fit-column {
   background-image: none;
 }
-body.mrs-v15 .tabi-global-logo img {
+body.mrs-v15 .marshall-logo img {
   border-radius: 50%;
   overflow: hidden;
 }
-body.mrs-v15 .tabi-global-middle-6 .stay_connent_with_social h5 {
+body.mrs-v15 .marshall-middle-6 .stay_connent_with_social h5 {
   color: #333;
 }
-body.mrs-v15 .tabi-global-middle-6 .stay_connent_with_social {
+body.mrs-v15 .marshall-middle-6 .stay_connent_with_social {
   bottom: inherit;
   left: inherit;
   margin-top: 35px;
@@ -2205,7 +2208,7 @@ body.mrs-v15 .tabi-global-middle-6 .stay_connent_with_social {
   position: absolute;
 }
 
-.default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content {
+.default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content {
   background-color: #fff;
   border-radius: 40px;
   margin-top: 30px;
@@ -2213,27 +2216,27 @@ body.mrs-v15 .tabi-global-middle-6 .stay_connent_with_social {
   float: left;
   position: relative;
 }
-.default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content input {
+.default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content input {
   float: left;
   margin: auto auto 0;
   width: calc(80% - 30px);
   background-color: transparent;
 }
-body.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content input:active,
-body.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content input:hover,
-body.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content input:focus {
+body.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content input:active,
+body.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content input:hover,
+body.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content input:focus {
   box-shadow: none;
   border: 0px solid;
   outline: none
 }
-.default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content .marshall_submit {
+.default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content .marshall_submit {
   float: right;
   margin-right: 5px;
   margin-top: 4px;
   padding: 10px 0;
   width: 80px;
 }
-.default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content label {
+.default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content label {
   bottom: -50px;
   display: block;
   font-size: 0.8em;
@@ -2252,13 +2255,13 @@ body.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsle
 body.mrs-v16 {
   background-color: #f1f2ed;
 }
-body.mrs-v16 .tabi-global-container {
+body.mrs-v16 .marshall-container {
   background-color: #fb3669;
   background-image: url("images/bg.png");
   background-repeat: repeat;
   background-size: auto;
 }
-.tabi-global-content-close.default_close_active {
+.marshall-content-close.default_close_active {
   display: block;
 }
 .info_box {
@@ -2289,15 +2292,15 @@ body.mrs-v16 .tabi-global-container {
   background-color: #FFF;
   color: #232428;
 }
-.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content {
+.mrs-white .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content {
   border: 1px solid #efe9e9;
 }
-body.mrs-white .tabi-global-social-links a {
+body.mrs-white .marshall-social-links a {
   color: #000;
 }
-body.mrs-white .default_mrs_newsletter .tabi-global-newsletter-content input:focus,
-body.mrs-white .default_mrs_newsletter .tabi-global-newsletter-content input:active,
-body.mrs-white .default_mrs_newsletter .tabi-global-newsletter-content input:hover {
+body.mrs-white .default_mrs_newsletter .marshall-newsletter-content input:focus,
+body.mrs-white .default_mrs_newsletter .marshall-newsletter-content input:active,
+body.mrs-white .default_mrs_newsletter .marshall-newsletter-content input:hover {
   background-color: #fff;
   border: 0 none;
   border-radius: 0;
@@ -2440,7 +2443,7 @@ body.mrs-white .default_mrs_newsletter .tabi-global-newsletter-content input:hov
     opacity: 0;
 }
 }
-.tabi-global-animate-content.mrs-active.tabi-global-bg-column {
+.marshall-animate-content.mrs-active.marshall-bg-column {
   background-color: #20222b;
 }
 #geometric {
@@ -2469,14 +2472,14 @@ body.mrs-white .default_mrs_newsletter .tabi-global-newsletter-content input:hov
   color: #b6b6b6;
   text-align: left;
 }
-.mrs-v19 .tabi-global-content h4 {
+.mrs-v19 .marshall-content h4 {
   color: #9a9ca8;
   font-size: 1.3em;
 }
-.mrs-v19 .tabi-global-content h3 {
+.mrs-v19 .marshall-content h3 {
   line-height: 1.3;
 }
-.mrs-v19 .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content {
+.mrs-v19 .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content {
   background-color: rgba(231, 231, 233, 0.7);
   border-radius: 40px;
   float: left;
@@ -2484,7 +2487,7 @@ body.mrs-white .default_mrs_newsletter .tabi-global-newsletter-content input:hov
   position: relative;
   width: 80%;
 }
-.mrs-v19 .default_mrs_newsletter .tabi-global-newsletter-content input:focus {
+.mrs-v19 .default_mrs_newsletter .marshall-newsletter-content input:focus {
   background-color: transparent;
   box-shadow: 0 0 0;
   border-radius: 0: 
@@ -2554,7 +2557,7 @@ body.mrs-v19 .morph-button-modal-2 .morph-content {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent 80%, rgba(0, 0, 0, 0.5));
   }
 }
-body.mrs-v20 .tabi-global-middle-6 .fat_title {
+body.mrs-v20 .marshall-middle-6 .fat_title {
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -2681,7 +2684,7 @@ body.mrs-v20 .tabi-global-middle-6 .fat_title {
 .mrs-v21 h1 strong{
   font-family: "Work Sans",sans-serif;
 }
-body.mrs-v21 .tabi-global-content {
+body.mrs-v21 .marshall-content {
   display: block;
   left: 50%;
   margin-left: 0;
@@ -2723,7 +2726,7 @@ body.mrs-v21 .tabi-global-content {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent 80%, rgba(0, 0, 0, 0.5));
   }
 }
-body.mrs-v22 .tabi-global-middle-6 .fat_title {
+body.mrs-v22 .marshall-middle-6 .fat_title {
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -2736,10 +2739,10 @@ body.mrs-v23 {
   background: rgba(0, 0, 0, 0) url("images/v23/confetti.html") repeat scroll center center;
   color: #969696;
 }
-body.mrs-v23 .tabi-global-content h2{
+body.mrs-v23 .marshall-content h2{
   color: #424242;
 }
-body.mrs-v23 .tabi-global-content h2 {
+body.mrs-v23 .marshall-content h2 {
   color: #424242;
   font-size: 1.6em;
   font-weight: bold;
@@ -2754,11 +2757,11 @@ body.mrs-v23 .tabi-global-content h2 {
 .marhall-maintain-thumb img{
   display: block;
 }
-body.mrs-v24 .tabi-global-content h4 {
+body.mrs-v24 .marshall-content h4 {
   font-size: 1.4em;
   line-height: 1.5;
 }
-body.mrs-v23 .tabi-global-col-content {
+body.mrs-v23 .marshall-col-content {
   min-height: 600px;
 }
 
@@ -2772,7 +2775,7 @@ body.mrs-v24 {
   background: #F1F1F1;
   color: #969696;
 }
-.tabi-global-bg-overley {
+.marshall-bg-overley {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -2780,10 +2783,10 @@ body.mrs-v24 {
   left: 0;
   background: rgba(0, 0, 0, 0) url("images/v24/confetti.html") repeat scroll center center;
 }
-body.mrs-v24 .tabi-global-content h2{
+body.mrs-v24 .marshall-content h2{
   color: #424242;
 }
-body.mrs-v24 .tabi-global-content h2 {
+body.mrs-v24 .marshall-content h2 {
   color: #424242;
   font-size: 1.6em;
   font-weight: bold;
@@ -2798,11 +2801,11 @@ body.mrs-v24 .tabi-global-content h2 {
 .marhall-maintain-thumb img{
   display: block;
 }
-body.mrs-v24 .tabi-global-content h4 {
+body.mrs-v24 .marshall-content h4 {
   font-size: 1.4em;
   line-height: 1.5;
 }
-body.mrs-v24 .tabi-global-col-content {
+body.mrs-v24 .marshall-col-content {
   min-height: 600px;
 }
 .simple-logo {
@@ -2810,10 +2813,10 @@ body.mrs-v24 .tabi-global-col-content {
   opacity: 0.3;
   width: 100px;
 }
-body.mrs-v24 .tabi-global-content a,
-body.mrs-v24 .tabi-global-content a:hover,
-body.mrs-v24 .tabi-global-content a:focus,
-body.mrs-v24 .tabi-global-content a:active {
+body.mrs-v24 .marshall-content a,
+body.mrs-v24 .marshall-content a:hover,
+body.mrs-v24 .marshall-content a:focus,
+body.mrs-v24 .marshall-content a:active {
   color: #90C145;
 }
 
@@ -2822,7 +2825,7 @@ body.mrs-v24 .tabi-global-content a:active {
 /* -----------------------------------------------------------------
   *. v25
 -------------------------------------------------------------------*/
-body.mrs-v25 > .tabi-global-container {
+body.mrs-v25 > .marshall-container {
   background-image: url("images/v25/bg.html");
   background-repeat: repeat;
   background-size: auto;
@@ -2842,13 +2845,13 @@ body.mrs-v25 > .tabi-global-container {
 body.mrs-v26 {
   background-color: #f1f2ed;
 }
-body.mrs-v26 > .tabi-global-container {
+body.mrs-v26 > .marshall-container {
   background-color: #56c2df;
   background-image: url("images/v26/bg.html");
   background-repeat: repeat;
   background-size: auto;
 }
-.tabi-global-content-close.default_close_active {
+.marshall-content-close.default_close_active {
   display: block;
 }
 
@@ -2878,7 +2881,7 @@ body.mrs-v26 > .tabi-global-container {
   width: 100%;
   z-index: -1;
 }
-.mrs-v27 .tabi-global-fit-column {
+.mrs-v27 .marshall-fit-column {
   background: none;
 }
 
@@ -2977,7 +2980,7 @@ body.mrs-v29::before {
   right: -16px;
   top: -63px;
 }
-.mrs-v30 .tabi-global-animate-content {
+.mrs-v30 .marshall-animate-content {
   background: #FFF url("images/v30/confetti.html") repeat scroll center center;
 }
 .mrs-v30 .bg-content::after {
@@ -2988,7 +2991,7 @@ body.mrs-v29::before {
 /* -----------------------------------------------------------------
   *. v31
 -------------------------------------------------------------------*/
-.mrs-v31 .tabi-global-content h1 span {
+.mrs-v31 .marshall-content h1 span {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -3018,7 +3021,7 @@ body.mrs-v32 {
   background-color: #fff;
   color: #232428;
 }
-.mrs-v32 .tabi-global-content h1 span {
+.mrs-v32 .marshall-content h1 span {
   text-transform: uppercase;
   font-weight: bold;
   color: #5f9434;
@@ -3038,7 +3041,7 @@ body.mrs-v32 .morph-button-modal-2 .morph-content {
   background-color: #232428;
   color: #fff;
 }
-body.mrs-v32 .tabi-global-newsletter-description > p {
+body.mrs-v32 .marshall-newsletter-description > p {
   color: #fff;
 }
 body.mrs-v32 span.close-newsletter {
@@ -3058,21 +3061,21 @@ body.mrs-fill canvas {
   top: 0;
   width: 100%;
 }
-body.mrs-fill .tabi-global-button-group .tabi-global-btn, 
-body.mrs-fill .tabi-global-button-group .tabi-global-btn-text {
+body.mrs-fill .marshall-button-group .marshall-btn, 
+body.mrs-fill .marshall-button-group .marshall-btn-text {
   margin: -3px 0 0 20px;
 }
-body.mrs-fill .tabi-global-btn {
+body.mrs-fill .marshall-btn {
   padding: 9px 30px;
 }
-body.mrs-fill .tabi-global-btn:hover, 
-body.mrs-fill .tabi-global-btn:focus, 
-body.mrs-fill .tabi-global-btn:active {
+body.mrs-fill .marshall-btn:hover, 
+body.mrs-fill .marshall-btn:focus, 
+body.mrs-fill .marshall-btn:active {
   background-color: #f61067;
   border-style: #f61067;
 }
 
-.tabi-global-animate-content[data-animation="mrs-lightSpeedIn"] {
+.marshall-animate-content[data-animation="mrs-lightSpeedIn"] {
   backface-visibility: visible;
   opacity: 1;
   transform: translate3d(calc(100% + 30vw), 0px, 0px) skewX(-30deg);
@@ -3080,28 +3083,28 @@ body.mrs-fill .tabi-global-btn:active {
   visibility: visible;
   z-index: 5;
 }
-.tabi-global-animate-content.mrs-lightSpeedIn[data-animation="mrs-lightSpeedIn"] {
+.marshall-animate-content.mrs-lightSpeedIn[data-animation="mrs-lightSpeedIn"] {
   transform: translate3d(0, 0px, 0px) skewX(0);
   opacity: 1;
   visibility: visible;
   backface-visibility: visible;
 }
-.newsletter-modal-oepn #tabi-global-details {
+.newsletter-modal-oepn #marshall-details {
   z-index: 0 !important;
 }
-#tabi-global-close-content-slide {
+#marshall-close-content-slide {
   z-index: 6;
 }
-.tabi-global-col-content{
+.marshall-col-content{
   transition: all 0.4s ease 0s;
 }
-.tabi-global-col-content.mrs-default-content-off {
+.marshall-col-content.mrs-default-content-off {
   margin-left: 0 !important;
   transform: perspective(1000px) rotate3d(0, 1, 0, 60deg) scale(0.8);
   transition: all 0.4s ease 0s;
   position: relative;
 }
-.tabi-global-col-content.mrs-default-content-off::after {
+.marshall-col-content.mrs-default-content-off::after {
   background-color: transparent;
   content: "";
   cursor: pointer;
@@ -3113,7 +3116,7 @@ body.mrs-fill .tabi-global-btn:active {
   width: 100%;
   z-index: 2;
 }
-body.mrs-fill .tabi-global-container {
+body.mrs-fill .marshall-container {
   overflow-y: hidden;
 }
 
@@ -3156,7 +3159,7 @@ body.mrs-v35 .morph-button-modal-2 .morph-content {
   background-color: #232428;
   color: #fff;
 }
-body.mrs-v35 .tabi-global-social-links a {
+body.mrs-v35 .marshall-social-links a {
   color: #232428;
 }
 
@@ -3214,7 +3217,7 @@ body.mrs-v41 {
   color: #999999;
 }
 body.mrs-v41 h1,
-body.mrs-v41 .tabi-global-social-links a {
+body.mrs-v41 .marshall-social-links a {
   color: rgba(163, 32, 109, 0.6);
 }
 .animate-bg-overlay {
@@ -3257,7 +3260,7 @@ body.mrs-v41 .tabi-global-social-links a {
 body.mrs-v42 {
   color: #111;
 }
-body.mrs-v42 .tabi-global-social-links a {
+body.mrs-v42 .marshall-social-links a {
   color: #FF8B56;
 }
 body.mrs-v42 .morph-button-modal-2 > button, 
@@ -3313,8 +3316,8 @@ body.mrs-v44 {
 /* -----------------------------------------------------------------
   *. v46
 -------------------------------------------------------------------*/
-body.mrs-v46 .tabi-global-social-links a,
-body.mrs-v46 .tabi-global-social-column {
+body.mrs-v46 .marshall-social-links a,
+body.mrs-v46 .marshall-social-column {
   color: #111;
 }
 
@@ -3325,9 +3328,13 @@ body.mrs-v46 .tabi-global-social-column {
 -------------------------------------------------------------------*/
 body.mrs-color {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#facf07+0,facf07+36,e8a501+100 */
-
+  background: #facf07; /* Old browsers */
+  background: -moz-linear-gradient(top,  #facf07 0%, #facf07 36%, #e8a501 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #facf07 0%,#facf07 36%,#e8a501 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #facf07 0%,#facf07 36%,#e8a501 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#facf07', endColorstr='#e8a501',GradientType=0 ); /* IE6-9 */
 }
-.stay_connent_with_social.tabi-global-top-right li a {
+.stay_connent_with_social.marshall-top-right li a {
   border-radius: 40px;
   display: inline-block;
   font-size: 1em;
@@ -3338,10 +3345,10 @@ body.mrs-color {
   text-align: center;
   width: 40px;
 }
-.stay_connent_with_social.tabi-global-top-right li a i {
+.stay_connent_with_social.marshall-top-right li a i {
   margin-right: 0;
 }
-body.mrs-color .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content {
+body.mrs-color .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content {
   float: none;
 }
 .mrs-color .simply-countdown-column {
@@ -3385,7 +3392,7 @@ body.mrs-color .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsle
 .margin-top.default_mrs_newsletter {
   margin-top: 50px;
 }
-.mrs-v48 .default_mrs_newsletter.mrs_inline_newsletter .tabi-global-newsletter-content {
+.mrs-v48 .default_mrs_newsletter.mrs_inline_newsletter .marshall-newsletter-content {
   width: 90%;
 }
 .mrs-v48 .mrs-color .simply-countdown-column {
@@ -3438,11 +3445,11 @@ body.mrs-color.mrs-v49 {
   margin: 35px auto auto;
   width: auto;
 }
-.stay_connent_with_social.tabi-global-left-center li {
+.stay_connent_with_social.marshall-left-center li {
   display: block;
   margin: 15px 0;
 }
-.stay_connent_with_social.tabi-global-left-center li a {
+.stay_connent_with_social.marshall-left-center li a {
   border-radius: 40px;
   display: inline-block;
   font-size: 1em;
@@ -3453,7 +3460,7 @@ body.mrs-color.mrs-v49 {
   text-align: center;
   width: 40px;
 }
-.stay_connent_with_social.tabi-global-left-center li a i {
+.stay_connent_with_social.marshall-left-center li a i {
   margin-right: 0;
 }
 
@@ -3499,7 +3506,7 @@ body.mrs-color.mrs-v50 {
   margin: 0 6px;
   width: 100px;
 }
-.mrs-v50 .tabi-global-social-column {
+.mrs-v50 .marshall-social-column {
   left: 50%;
   transform: translateX(-50%);
   width: auto;
@@ -3559,11 +3566,9 @@ canvas#hypnos-canvas {
 }
 .mrs-color .cd-headline {
   font-weight: bold;
-  color: #94c022 ;
+  color: #1e60ec;
 }
-.cd-intro{
-  text-align: center;
-}
+
 
 /* -----------------------------------------------------------------
   *. v51
@@ -3618,23 +3623,23 @@ body.mrs-v52::before {
   top: 0;
   width: 50%;
 }
-body.mrs-v52 .tabi-global-animate-content {
+body.mrs-v52 .marshall-animate-content {
   background-color: transparent;
 }
-body.mrs-v52 .tabi-global-the_content {
+body.mrs-v52 .marshall-the_content {
   background-color: rgba(255, 255, 255, 0.6);
 }
-body.mrs-v52 .tabi-global-works-heading {
+body.mrs-v52 .marshall-works-heading {
   background: none;
 }
-body.mrs-v52 .tabi-global-works-heading::after {
+body.mrs-v52 .marshall-works-heading::after {
   display: none;
 }
-body.mrs-v52 .tabi-global-works-heading-inner,
-body.mrs-v52 .tabi-global-the_content {
+body.mrs-v52 .marshall-works-heading-inner,
+body.mrs-v52 .marshall-the_content {
   color: #3b3939;
 }
-body.mrs-v52 .tabi-global-the_content .tabi-global-works-heading-inner h2 {
+body.mrs-v52 .marshall-the_content .marshall-works-heading-inner h2 {
   color: #252525;
 }
 .animation-wrapper{
@@ -3764,21 +3769,21 @@ body.mrs-v52 .tabi-global-the_content .tabi-global-works-heading-inner h2 {
 
 
 /* bottom reset */
-.tabi-global-top-left {
+.marshall-top-left {
   left: 40px;
   margin: 0 !important;
   top: 10px;
   right: inherit;
   position: absolute;
 }
-.tabi-global-top-right {
-  position: unset;
+.marshall-top-right {
+  position: absolute;
   right: 40px;
   top: 25px;
   left: inherit;
   margin: 0 !important;
 }
-.tabi-global-left-center {
+.marshall-left-center {
   position: absolute;
   left: 40px;
   top: 50%;
@@ -3787,7 +3792,7 @@ body.mrs-v52 .tabi-global-the_content .tabi-global-works-heading-inner h2 {
   transform: translateY(-50%);
   margin: 0 !important;
 }
-.tabi-global-right-center {
+.marshall-right-center {
   position: absolute;
   right: 40px;
   top: 50%;
@@ -3796,7 +3801,7 @@ body.mrs-v52 .tabi-global-the_content .tabi-global-works-heading-inner h2 {
   transform: translateY(-50%);
   margin: 0 !important;
 }
-.tabi-global-top-center {
+.marshall-top-center {
   position: absolute;
   left: 50%;
   top: 15px;
@@ -3805,7 +3810,7 @@ body.mrs-v52 .tabi-global-the_content .tabi-global-works-heading-inner h2 {
   transform: translateY(-50%);
   margin: 0 !important;
 }
-.tabi-global-bottom-center {
+.marshall-bottom-center {
   position: absolute;
   left: 50%;
   top: inherit;
