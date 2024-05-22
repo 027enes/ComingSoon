@@ -19,7 +19,7 @@ body{
   font-family: 'Open Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #131623;
+  background-color: #eeeeee;
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden;
@@ -1972,7 +1972,6 @@ canvas.fireworks {
 -------------------------------------------------------------------*/
 body.mrs-v9 {
   background-color: #FFF;
-  color: #232428;
 }
 body.mrs-v9 .morph-button-modal-2 > button, 
 body.mrs-v9 .morph-button-modal-2 .morph-content {

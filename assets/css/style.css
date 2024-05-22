@@ -20,7 +20,12 @@ ul li {
 	overflow: hidden;
 	cursor: pointer;
 }
+.coming-title {
+	  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
 
+}
 .morph-button.open > button {
 	pointer-events: none;
 }
