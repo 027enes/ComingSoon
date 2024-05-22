@@ -412,6 +412,10 @@ h1, .h1 {
   }
   .marshall-col-6.marshall-middle-6.marshall-col-content{
     min-height: auto !important;
+    height: auto !important;
+  }
+  .marshall-middle-6 .marshall-social-column{
+    position: unset;
   }
 }
 
